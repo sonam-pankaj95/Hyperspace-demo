@@ -1,0 +1,18 @@
+{
+  "configuration": {
+    "id": {
+      "type": "keyword",
+      "id": true
+    },
+    "metadata": {
+      "type": "keyword"
+    },
+    "img_clip": {
+      "type": "dense_vector",
+      "dim": 512,
+      "index_type": "brute_force",
+      "metric": "IP"
+    }
+
+  }
+}
